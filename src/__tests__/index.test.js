@@ -3,14 +3,14 @@ import {definePrime} from '../index.js'
 import {revertString} from '../index.js'
 
 
-xdescribe("test sum", 
+describe("test sum", 
 ()=>{
-    it("test sum1", 
+    it("test sum", 
        ()=>{
         expect(sum(1, 2)).toBe(3);
        }
     ),
-    it("test sum1", 
+    it("test sum", 
        ()=>{
         expect(sum(5, 100)).toBe(105);
        }
@@ -18,7 +18,7 @@ xdescribe("test sum",
 }
 );
 
-xdescribe("tests for definePrime function", 
+describe("tests for definePrime function", 
     () => {
         const simple = 17;
         const complex = 18;
